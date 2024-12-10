@@ -71,18 +71,27 @@ Explore tools:
 ### Docker Image
 Quickly explore the project with the pre-built Docker image:
 ```bash
-docker pull mirzarbaig/sofa_application_v2
+docker pull mirzarbaig/sofa-application_v3
 docker run -it \
   -e DISPLAY=$DISPLAY \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
   --device /dev/dri:/dev/dri \
-  9ab4dc7e9551
+  mirzarbaig/sofa-application_v3
+```
+
 ## steps to run inside docker container for adding paths
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/rahman/sofa/build/lib
-export PATH=$PATH:/sofa_dir/build/bin
+```bash
 cd /home/rahman/sofa/build/bin
 ./runSofa
 ```
+
+## Steps to run the Cable gripper module and control the cable gripper 
+Click on open file and open the following python script for running the cable gripper module.
+"/home/rahman/ext_plugin_repo/SoftRobots/examples/tutorials/CableGripper/details/step6.py"
+Run Animate
+1) Cntl + arrow direction ----> to translate the gripper
+2) Cntl + "+" ----> to close the gripper and "-" to release the gripper
+3) Cntl + "C", "A", "5", "6", "7", "8" to rotate the gripper in different directions. 
 
 ### Dataset Link
 Access the dataset [here](https://drive.google.com/file/d/1c2X_SopB0AovaBwLmH0h0JhwIudQu1AH/view?usp=drive_link).
