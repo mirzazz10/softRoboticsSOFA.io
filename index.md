@@ -29,9 +29,21 @@ For detailed references, explore:
 - **Sorotoki**: FEM Mesh toolkit
 
 ### The SOFA Framework
-- Introduced in 2012 by HAL
-- Features root nodes, scenes, object properties, and advanced mathematical simulations
-- Includes controlling interfaces for soft robot simulations
+SOFA (Simulation Open Framework Architecture) is an open-source, modular framework specifically designed for physics-based simulations. Initially introduced in 2012 by HAL (French National Archive), SOFA provides a versatile environment for research and development in robotics, biomechanics, and more.
+
+#### Key Features:
+- **Root Node and Scene Graph**:
+- SOFA organizes simulations into a hierarchical scene graph with a root node, enabling modularity and ease of configuration.
+- **Mathematical Modeling and Solvers**:
+- Supports advanced solvers for Finite Element Method (FEM), mass-spring systems, and rigid body dynamics to ensure accurate physical simulations.
+- **Object Properties and Interactions**:
+- Offers tools to define material properties, constraints, and interactions between objects.
+- **Plugin Architecture**:
+- Extensible with plugins for specialized functionalities like soft robotics, surgical simulation, and real-time interaction.
+
+#### Controlling Interfaces:
+- SOFA supports external control through Python scripts and C++ APIs, making it easy to integrate with custom algorithms and controllers.
+- Provides prebuilt modules for tasks such as kinematic control, force feedback, and dynamic manipulation, essential for simulating soft robots.
 
 Explore tools:
 - [SOFA Framework GitHub](https://github.com/sofa-framework)
