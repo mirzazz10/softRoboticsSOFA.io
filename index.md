@@ -89,6 +89,6 @@ Access the dataset [here](https://drive.google.com/file/d/1c2X_SopB0AovaBwLmH0h0
 
 ### Citation
 ```bash
-Rahman Baig Mirza( rmirza2@asu.edu) and Nakul Gopalan( ngopala6@asu.edu), Arizona State University.
+Rahman Baig Mirza( rmirza2@asu.edu), Nakul Gopalan( ngopala6@asu.edu), Arizona State University.
 ```
 
