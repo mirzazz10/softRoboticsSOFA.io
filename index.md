@@ -87,7 +87,7 @@ Access the dataset [here](https://drive.google.com/file/d/1c2X_SopB0AovaBwLmH0h0
 - Extend usage to dexterous in-hand manipulation.
 - Explore reinforcement learning support in SOFA ([SofaGym](https://github.com/SofaDefrost/SofaGym)).
 
-## Citation
+### Citation
 '''
 Rahman Baig Mirza( rmirza2@asu.edu) and Nakul Gopalan( ngopala6@asu.edu), Arizona State University.
 '''
