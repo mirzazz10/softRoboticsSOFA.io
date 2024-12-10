@@ -1,4 +1,4 @@
-  # Soft Robotics - Applied Project
+  # Soft Robot Grasping Dataset using SOFA framework
 
 ## Introduction
 Soft robots are flexible robotic systems that can bend and deform. They are advantageous for:
