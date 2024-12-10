@@ -87,11 +87,13 @@ cd /home/rahman/sofa/build/bin
 
 ## Steps to run the Cable gripper module and control the cable gripper 
 Click on open file and open the following python script for running the cable gripper module.
+```basb
 "/home/rahman/ext_plugin_repo/SoftRobots/examples/tutorials/CableGripper/details/step6.py"
-Run Animate
+0) Run Animate
 1) Cntl + arrow direction ----> to translate the gripper
 2) Cntl + "+" ----> to close the gripper and "-" to release the gripper
-3) Cntl + "C", "A", "5", "6", "7", "8" to rotate the gripper in different directions. 
+3) Cntl + "C", "A", "5", "6", "7", "8" to rotate the gripper in different directions.
+```
 
 ### Dataset Link
 Access the dataset [here](https://drive.google.com/file/d/1c2X_SopB0AovaBwLmH0h0JhwIudQu1AH/view?usp=drive_link).
