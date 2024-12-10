@@ -72,6 +72,16 @@ Explore tools:
 Quickly explore the project with the pre-built Docker image:
 ```bash
 docker pull mirzarbaig/sofa_application_v2
+docker run -it \
+  -e DISPLAY=$DISPLAY \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  --device /dev/dri:/dev/dri \
+  9ab4dc7e9551
+## steps to run inside docker container for adding paths
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/rahman/sofa/build/lib
+export PATH=$PATH:/sofa_dir/build/bin
+cd /home/rahman/sofa/build/bin
+./runSofa
 ```
 
 ### Dataset Link
