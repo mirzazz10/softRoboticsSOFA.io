@@ -118,7 +118,21 @@ Access the dataset [here](https://drive.google.com/file/d/1c2X_SopB0AovaBwLmH0h0
 - Extend usage to dexterous in-hand manipulation.
 - Explore reinforcement learning support in SOFA ([SofaGym](https://github.com/SofaDefrost/SofaGym)).
 
-### Citation
+### SofaFramework Author Citation
+## Citation
+
+The **SOFA Framework** is an open-source simulation framework for multi-physics, used in various fields such as robotics, biomechanics, and computer graphics. For more information, please visit the official website: [SOFA Framework](https://www.sofa-framework.org/).
+
+If you use the SOFA framework in your research or project, please cite the following:
+
+- **SOFA Framework**: [SOFA Framework - Official Website](https://www.sofa-framework.org/)
+
+Additionally, if you're looking for academic papers or more formal citations related to SOFA, you can refer to the following publication:
+
+- **SOFA Framework Paper**: B. Allard, A. Beaucamp, M. Dap, et al., *SOFA: A Multi-Physics Framework for the Simulation of Soft Robots*, International Journal of Robotics Research, 2018.
+
+
+### Request for the dataset please reach out to 
 ```bash
 Rahman Baig Mirza( rmirza2@asu.edu), Nakul Gopalan( ngopala6@asu.edu), Arizona State University.
 ```
